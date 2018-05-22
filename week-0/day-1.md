@@ -1,8 +1,41 @@
 ### Today's To-do List
 
-[ ] - Research how ideas for how `println!` debugging could work in `wasm`
-[ ] - Learn about Rust closures
-[ ] - Put together a brief talk on `impl Trait` w/ description and examples
-[ ] - Notes on today's pair programming workshop
-[ ] - Finish working on `twiggy` issue #58
+[ ] - __a:__ Research how ideas for how `println!` debugging could work in `wasm`
+[ ] - __b:__ Learn about Rust closures
+[ ] - __c:__ Put together a brief talk on `impl Trait` w/ description and examples
+[x] - __d:__ Notes on today's pair programming workshop
+[x] - __e:__ Finish working on `twiggy` issue #58
+
+## a. Println! Debugging in WebAssembly
+
+First, it is worth looking into how we would manually import and use the
+`console.log` function from within a WebAssembly binary. One potential
+route would entail importing this by default, or if a specific compilation
+flag is given to `rustc`. Once this was set, errors would be sent to the
+JS console.
+
+## Pair Programming Workshop Notes
+
+For the pair programming workshop, we spent some time working on the Hamming
+Distance problem, implementing our solution in Rust. While we were working
+on this,  I learned about two really neat things.
+
+__Zipping Iterators__
+
+The first is the `zip` method for the `Iterator` object. This can be used to
+'zip' two iterators together, so that each step involves a pair of elements.
+This is profoundly useful if you are working with two different sequences.
+
+It is worth noting that once one of these iterators returns `None`, the
+iterator will return `None` for all subsequent calls to `next`. Here is a
+basic example of what using the `zip` method looks like.
+
+__Entr__
+
+The `entr` command is used to run arbritrary commands when files change.
+This is a really useful trick to know about for my Rust workflow, because
+I can use this to rebuild and/or test my program after making edits to
+a file. No more typing `cargo build` and `cargo test` over and over!
+
+`ls src/*.rs | entr -cr cargo test`
 
