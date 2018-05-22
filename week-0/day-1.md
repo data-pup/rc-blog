@@ -1,8 +1,8 @@
 ### Today's To-do List
 
 [ ] - __a:__ Research how ideas for how `println!` debugging could work in `wasm`
-[ ] - __b:__ Learn about Rust closures
-[ ] - __c:__ Put together a brief talk on `impl Trait` w/ description and examples
+[.] - __b:__ Learn about Rust closures
+[.] - __c:__ Put together a brief talk on `impl Trait` w/ description and examples
 [x] - __d:__ Notes on today's pair programming workshop
 [x] - __e:__ Finish working on `twiggy` issue #58
 
@@ -66,4 +66,10 @@ I will look into opening a new issue for tracking and discussing that work.
 
 I got some notes back, so the next step will be to fix those details up,
 and update my PR.
+
+### ACM Problem
+
+As the afternoon started to wind down, I tackled another ACM problem with
+my friend Avery. This was fun, albeit a little more challenging than we
+initially expected.
 
