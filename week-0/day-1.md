@@ -71,5 +71,18 @@ and update my PR.
 
 As the afternoon started to wind down, I tackled another ACM problem with
 my friend Avery. This was fun, albeit a little more challenging than we
-initially expected.
+initially expected. We decided to switch to a different problem, and
+implemented an algorithm to represent integer values using different base
+notation.
+
+### Wrapping Up
+
+I spent the rest of the day taking some notes on `impl Trait` for a
+presentation, and finished up some of the code for `twiggy` that I had worked
+on earlier in the day.
+
+The code that I had added ended up looking much cleaner, using a `RegexSet`
+rather than a collection of individual `Regex` objects. Further, I added
+error handling for invalid regular expression arguments, and fixed some
+incorrect test cases.
 
