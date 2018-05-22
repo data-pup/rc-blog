@@ -39,3 +39,17 @@ a file. No more typing `cargo build` and `cargo test` over and over!
 
 `ls src/*.rs | entr -cr cargo test`
 
+### Late Morning
+
+After I wrapped up the pair programming work and finished up some of the notes
+on what I learned while working on that, I completed some of the work that I
+had started earlier this morning adding regex functionality to a sub-command
+for `twiggy`.
+
+Assuming this all looks good, I might try and use that as a nice starter issue
+to pair with someone else on, and look into some of the less trivial issues
+that could be tackled.
+
+Adding compatibility with other binary formats seems like it would be an
+interesting project, so I might see/ask what that would entail.
+
