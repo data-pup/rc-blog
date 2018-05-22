@@ -57,3 +57,13 @@ After some upstream commits were merged, I also got to learn more about
 rebasing. Specifically the `git rebase --continue` command, which will continue
 through the rebasing process after all of the conflicts have fixed.
 
+### Afternoon
+
+I started taking some notes regarding how closures and impl trait work, while
+I waited for review notes on the work I did to add a new feature to `twiggy`.
+I also reached out about the potential project of adding ELF compatibility,
+I will look into opening a new issue for tracking and discussing that work.
+
+I got some notes back, so the next step will be to fix those details up,
+and update my PR.
+
