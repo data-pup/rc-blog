@@ -53,3 +53,7 @@ that could be tackled.
 Adding compatibility with other binary formats seems like it would be an
 interesting project, so I might see/ask what that would entail.
 
+After some upstream commits were merged, I also got to learn more about
+rebasing. Specifically the `git rebase --continue` command, which will continue
+through the rebasing process after all of the conflicts have fixed.
+
