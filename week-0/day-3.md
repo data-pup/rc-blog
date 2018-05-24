@@ -28,7 +28,7 @@ I also spent some time talking with some friends about organizing some events
 for learning new programming languages, which I will think more about later
 today, and/or later this week.
 
-## Afternoon
+## Late Morning
 
 I submitted the patch for my PR to `cretonne`, and asked some questions in
 the IRC channel regarding the CI scripts that are being run. It turns out
@@ -45,4 +45,29 @@ time on here:
 
 At this point I am thinking about breaking off for lunch, so I will continue
 on that work after I have some food in me!
+
+### Afternoon
+
+At lunch I got learn a little more about the problems involved with
+implementing search, especially with regards to how it related to
+personalization. I asked about some reading material that would be recommended,
+and this might turn into a topic I spend some time studying here :)
+
+I also reached out about the cretonne refactoring work, and noted that I would
+not mind trying to help reimplement some of that code in Rust. This might be
+involved, but there were some notes on places that would be good to start.
+
+At this point I had.. kind of finished a lot the issues I had hoped to
+contribute solutions to for both `cretonne` and `twiggy`, and figured it would
+be good to take some time and work on something different and new. Luckily,
+there is a study group for working on algorithm problems, which I decided to
+jump into.
+
+As a side note regarding something that I have been thinking about, it might
+be fun to try and implement a simple clone(ish) of Logstash using Rust. I might
+return to this idea, as it has been bouncing around in my head for a little
+while. I had previously tried to build a little stream editor earlier on while
+learning Rust, but left it in a sorry state of incompletion. I might try
+and build this, because I think some of the crates ecosystem could come in
+handy here!
 
