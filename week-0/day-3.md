@@ -24,3 +24,25 @@ and from there I should be about done with that!
 I will hopefully try and spend some time researching the ELF compatibility
 issue for `twiggy`, and maybe open a tracking issue for this.
 
+I also spent some time talking with some friends about organizing some events
+for learning new programming languages, which I will think more about later
+today, and/or later this week.
+
+## Afternoon
+
+I submitted the patch for my PR to `cretonne`, and asked some questions in
+the IRC channel regarding the CI scripts that are being run. It turns out
+that rust-fmt is in a transitional state, so there were some issues when
+trying out the new 'train', which is currently on v0.9.
+
+I posted inquiring who else would like to try and learn a new language, and
+at this point I might try and spend some time researching the work that would
+need to be done for two large projects that I have been thinking about spending
+time on here:
+
+*  Adding ELF compatibility to `twiggy`
+*  Refactoring the `cretonne` DSL
+
+At this point I am thinking about breaking off for lunch, so I will continue
+on that work after I have some food in me!
+
