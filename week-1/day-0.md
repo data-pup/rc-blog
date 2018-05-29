@@ -37,3 +37,11 @@ After this, I decided to switch over and start working a little bit on twiggy,
 and figure out how to handle some of the initial steps regarding adding the
 dependencies needed, as well as test fixtures.
 
+---
+
+After making some simple fixture code, and compiling an ELF binary, I realized
+that cross-compiling for OS X was causing some extremely peculiar issues.
+I worked with some friends on a CTF challenge, and got to learn a little bit
+about `hydra`, and take a little bit of a mental rest from actively
+programming myself.
+
