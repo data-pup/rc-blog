@@ -18,3 +18,16 @@ I spent some time talking with my friends Ashley and Daniel about music that
 we have been listening to, what they were working on themselves, and making
 some coffee together.
 
+After getting most of my initial scaffolding into place, I reached out for
+a little bit of guidance on what my next steps should be on this. From there,
+I decided to context switch and get back to work on some of the Cretonne work
+that I had started yesterday.
+
+Hopefully, I can get to a similar point with this, and reach out for some
+advice on where to go forward with that work. Then, I should hopefully have
+some answers and further guidance on each of these projects :D
+
+This led to some interesting considerations, because Python and Rust have
+some fundamentally different types in their standard library. Specifically,
+regarding how to represent the arms in a match statement.
+
