@@ -31,3 +31,15 @@ This led to some interesting considerations, because Python and Rust have
 some fundamentally different types in their standard library. Specifically,
 regarding how to represent the arms in a match statement.
 
+I continued to work on Cretonne stuff for a few more hours, and eventually
+did get an answer to the question I had regarding the twiggy stuff that
+I was confused about. I have enough information I think at this point to get
+some more work on that done tomorrow. I also made some decent progress on
+the srcgen side of things for Cretonne, even though I still have some questions
+about typing.
+
+Around now, I decided to take a break and attend the non-technical talks that
+were scheduled for the evening. This is a fun activity, because it provides
+people to practice public speaking, and talk about something that they are
+interested in outside of tech.
+
