@@ -39,3 +39,15 @@ trait working before I think too much about refactoring.
 
 ---
 
+For lunch I went out with the Dessert Club, continuing a storied tradition of
+Recursers sampling the finest sweets that the area has to offer. We got to
+spent some time with our friend Jennifer, a mini batch attendee, before the
+farewell drinks event this evening.
+
+After lunch was the 'Learn a New Programming Language' event that I had hosted,
+and was -absolutely late- to. Luckily, the group had started and begun
+organizing without me, and it turned into a fun success overall. We divided
+up into separate groups, and talked about C and Haskell. I got to learn
+more about how Haskell works, and we talked about what this group might
+look like in the future.
+
