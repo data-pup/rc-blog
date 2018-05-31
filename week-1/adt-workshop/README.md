@@ -137,10 +137,27 @@ Don't model what you don't need!
 
 Unused constructors and fields ar4e dead code too!
 
-Model your domain as closely as possible.
+Model your domain as closely as possible. Allow all possible values, try to
+disallow impossible values.
 
 In general, when refactoring, the experience is that one should refactor types,
 and then work through the value related compiler errors. Once types are
 declared are correct, the rest of the refactoring experience in general is
 fairly smooth.
+
+Datatypes are cheap, use so-called 'throw-away' datatypes.
+
+Some combinatorics:
+  * wrappers
+  * enumerations
+  * unit types
+  * uninhabited types
+  * recursive datastructures
+
+GHC will give warnings about non-exhaustive patterns.
+
+Why are uninhabited types useful? If we cannot construct an instance of a
+value, what would it be used for an why would we want to declare it? One
+example would be communicating at the type level that a function would never
+terminate.
 
