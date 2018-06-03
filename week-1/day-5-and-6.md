@@ -20,3 +20,15 @@ There are some interesting points of nuance here, but I think I should be able
 to have a solid understanding of what the process will be for finding the size
 of an entity in an object file.
 
+# Week 1 Day 6 Notes
+
+Today I spent some time reviewing the code for `bloaty`, a code size profiler
+that is similar to `twiggy`. This would be a good way to find some comparable
+code, and see how they implement a solution to the issue of calculating the
+size of an object inside of a binary.
+
+This project is implemented in C++, so the code ends up following different
+architectural patterns as an effect of this, but this is also processing
+DWARF debugging information inside of ELF binaries, so it is a useful resource
+for comparison.
+
