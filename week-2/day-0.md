@@ -18,5 +18,15 @@ The notes from that session are included in a separate file in this directory.
 *  Add an impl Trait block for compilation units in a file
 *  Calculate the size / name of compilation units
 *  Find the next structs that I should implement this Parse trait for
-*  Put slides together for a non-technical talk for tonight
+
+---
+
+Today I worked on refactoring my previous work implementing the parsing traits
+for `twiggy`. This required a fair bit of rethinking, and some hairy work
+involving lifetimes, generics, etc., but I made a lot of progress.
+
+At this point, I have divided everything into smaller individual functions
+responsible for parsing a file, its compilation units, and individual
+entries. There is still a fair bit of work to do, but this has gotten me
+set up to make solid progress on the size calculations tomorrow.
 
