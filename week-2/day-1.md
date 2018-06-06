@@ -24,3 +24,25 @@ This evening there is also a viewing party for Star Trek, which should be
 a lot of fun! For now however, it is off to work on some twiggy things,
 figuring out how to get all of this DWARF information converted into IR items.
 
+---
+
+(Summarizing my day using my check-in the next morning.)
+
+Spent most of yesterday working on more `twiggy` stuff. Getting a better
+handle on some of the `Option<T>` methods, and am now very much in love with
+using `ok_or(..)?`. I also finally wrapped my head around its `map` method,
+which only applies when an optional value contains `Some(val)`.
+
+This means you can use `map` to convert an `Option<T>` to an `Option<U>`,
+provided the argument is some function `T -> U`. Composing all these methods
+in longer chains was a little confounding at first, but I am feeling much more
+comfortable doing so, which is good given that the library I'm working with
+often returns `Result<Option<T>, Error>` objects that can be hard to handle
+otherwise.
+
+I attended the 'Mapping Ignorance' workshop and had a lot of fun thinking
+about some concepts that I would like to study further regarding
+asynchronous/concurrent code. The Star Trek viewing was a lot of fun too, I
+enjoyed the new series a bunch despite it not having Data (the best Trek
+character) in  it.
+
