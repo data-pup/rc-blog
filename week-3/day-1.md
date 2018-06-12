@@ -9,3 +9,20 @@ group.
 
 ---
 
+The linear algebra group was really helpful, and covered an explanation of
+the conceptual background of matrix multiplication, and why this operation
+does not function component wise.
+
+I spent some time reviewing some of the GitHub issues that I have been working
+on, and orienting myself regarding how to spend the rest of my day. I heard
+back regarding how my code for `twiggy` is shaping up so far, and everything
+looks like it is on the right track.
+
+Another little detail of the early afternoon was finding a way to promote
+warnings to errors in Cargo.
+
+At this point, I decided to jump back into some of the cretonne work that I
+started this morning.
+
+---
+
