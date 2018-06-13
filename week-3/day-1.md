@@ -26,3 +26,8 @@ started this morning.
 
 ---
 
+Yay! I got this wired up today, and can successfully invoke the functions that
+will end up being used to generate the `new_types.rs` file. This felt good,
+having been initially slightly intimidated by the whole notion of a `build.rs`
+file, and how to make edits to it. Learning is fun!
+
