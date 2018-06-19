@@ -21,3 +21,26 @@ dependency and only install this package when needed.
 
 ---
 
+Spent the first half of the day working through documenting the work required
+to solve the `wasm-pack`, and familiarizing myself with the changes to the
+codebase that have been made since I last looked through it.
+
+The PR that I had previously made to the project helped me get a good start
+on this, and the project is now layed out in such a manner that I think I
+should be able to get this done by the end of today :D
+
+There are also some really neat approaches to things that have been added to
+the code, and I am having a lot of fun so far.
+
+---
+
+Got a fair bit of work done on this `wasm-pack` issue, and spent some time
+planning some future events at RC. Talked with some friends about their
+projects, and got some preemptive reading finished to prepare for some of
+the stuff I would like to do.
+
+Was also reminded today about a really neat essay I loved and forgot about,
+comparing memory-unsafe languages to industrial tools, and how this mental
+model can inform our considerations of the languages we use for different
+tasks.
+
