@@ -13,3 +13,10 @@ Ideally, it would be nice if I can get to the point that a `new-types.rs` file
 is emitted in the target directory, but this may depend on how many more
 issues I run into regarding the IR types. Whee!
 
+---
+
+I spent some time working through a PR for `wasm-pack` with a friend, and
+helped them make their first contribution to an OSS repo! One of the other
+tasks of the day was attending an introduction to Coq. Notes for that are
+stored in this folder.
+
