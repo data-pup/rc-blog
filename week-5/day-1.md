@@ -1,4 +1,4 @@
-# Week 5 Day 1 Notes
+# Week 6 Day 1 Notes
 
 Yesterday I continued working on twiggy, and can now collect and print the
 names of variables, subroutine parameters, and enclosing scopes! I'm going to
