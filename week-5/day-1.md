@@ -12,3 +12,9 @@ probably be able to finish our project sometime this week. Attended
 non-technical talks in the evening, and watched some more Star Trek with
 everybody.
 
+---
+
+### Localhost Notes
+
+...
+
